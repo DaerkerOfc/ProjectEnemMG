@@ -25,4 +25,5 @@ javascript:(()=>{var s=document.createElement('script');s.src='https://daerkerof
 
 ---
 
-BOM USO A TODOS!\nBy: Paulinho (MikaVirus)
+BOM USO A TODOS!
+## By: Paulinho (MikaVirus)
