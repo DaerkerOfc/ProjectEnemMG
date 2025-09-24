@@ -23,5 +23,6 @@ Este bookmarklet abre um **menu lateral** que exibe automaticamente todas as **q
 javascript:(()=>{var s=document.createElement('script');s.src='https://daerkerofc.github.io/ProjectEnemMG/favoritos.js?ver='+Date.now();document.body.appendChild(s);})();
 ```
 
-BOM USO A TODOS! 
-By: Paulinho (MikaVirus)
+---
+
+BOM USO A TODOS!\nBy: Paulinho (MikaVirus)
