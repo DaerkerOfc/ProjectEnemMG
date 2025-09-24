@@ -20,4 +20,4 @@ Este bookmarklet abre um **menu lateral** que exibe automaticamente todas as **q
 5. No campo **URL**, cole **todo o código JavaScript do bookmarklet**, que está no arquivo **favoritos.js**, ou copie esse codigo abaixo:
 
 ```javascript
-javascript:(()=>{var s=document.createElement('script');s.src='https://daerkerofc.github.io/ProjectEnemMG/favoritos.js';document.body.appendChild(s);})();
+javascript:(()=>{var s=document.createElement('script');s.src='https://daerkerofc.github.io/ProjectEnemMG/favoritos.js?ver='+Date.now();document.body.appendChild(s);})();
