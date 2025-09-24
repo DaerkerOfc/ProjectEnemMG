@@ -17,4 +17,7 @@ Este bookmarklet abre um **menu lateral** que exibe automaticamente todas as **q
 2. Abra a barra de favoritos (**Ctrl+Shift+B** ou equivalente).  
 3. Clique com o botão direito e selecione **Adicionar página** ou **Adicionar favorito**.  
 4. Dê um nome, por exemplo: `Paul Blessed`.  
-5. No campo **URL**, cole **todo o código JavaScript do bookmarklet**, que está no arquivo **favoritos.js**.
+5. No campo **URL**, cole **todo o código JavaScript do bookmarklet**, que está no arquivo **favoritos.js**, ou copie esse codigo abaixo:
+
+```javascript
+javascript:(()=>{var s=document.createElement('script');s.src='https://daerkerofc.github.io/ProjectEnemMG/favoritos.js';document.body.appendChild(s);})();
