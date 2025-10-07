@@ -217,7 +217,7 @@ javascript: (function() {
             return r.text();
         }).then(function(t) {
             var base = "https://estplay-mg-obras.s3.amazonaws.com/" + mar.code + "W/1/OEBPS/Text/";
-            var materias = ["SOCIOLOGIA.xhtml", "Maratona_ENEM_FISICA2.xhtml", "FILOSOFIA.xhtml", "Maratona_ENEM_FISICA1.xhtml", "layout_matematica_EPUB", "LIVRO_MARATONAENEM2_EPUB.xhtml", "GEOGRAFIA.xhtml", "HISTORIA.xhtml"];
+            var materias = ["SOCIOLOGIA.xhtml", "Maratona_ENEM_FISICA2.xhtml", "FILOSOFIA.xhtml", "Maratona_ENEM_FISICA1.xhtml", "layout_matematica_EPUB", "LIVRO_MARATONAENEM2_EPUB.xhtml", "GEOGRAFIA.xhtml", "HISTORIA.xhtml","Maratona_ENEM_QUIMICA2.xhtml","Maratona_ENEM_BIOLOGIA1.xhtml","Maratona_ENEM_BIOLOGIA2.xhtml"];
             return Promise.all(materias.map(function(u) {
                 return fetch(base + u).then(function(r) {
                     return r.ok ? r.text() : null
